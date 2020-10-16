@@ -1,5 +1,12 @@
-$var: green;
+/*Config*/
 
-body{
-	color: $var;
-}
+@import'./config/_settings';
+@import'./config/_mixin';
+
+/*Partials*/
+@import'./partials/global.scss';
+@import'./partials/_header';
+@import'./partials/_main';
+@import'./partials/_contact';
+@import'./partials/_footer';
+

@@ -1,0 +1,40 @@
+@import'../config/_mixin';
+
+
+.footer {
+    width: 100%;
+    background-color: $footer-color;
+}
+
+.nav-footer{
+
+    margin-left: 418px ;
+}
+.nav-menu-footer{
+    list-style: none;
+    padding-top: 54px;
+}
+
+.nav-menu-footer li{
+    float: left;
+}
+.nav-menu-footer li + li{
+    margin-left: 40px;
+}
+
+
+.nav-menu-footer a{
+    @include ancores;
+
+}
+.footer-icon{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer-paragraph{
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 40px;
+    color: $white;
+}
