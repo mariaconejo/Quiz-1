@@ -16,8 +16,8 @@ body {
 
 /*HEADER*/
 .header {
-  background-color: #000114;
-  width: 100%; }
+  width: 100%;
+  background-color: #000114; }
 
 /*NESTING*/
 .icon {
@@ -77,7 +77,6 @@ body {
 
 .main-imgs {
   margin-bottom: 49px;
-  padding-left: 10px;
   padding-left: 5px; }
 
 .main-imgs img {
@@ -89,10 +88,10 @@ body {
   list-style: none; }
   .main-img-miniature li {
     float: left;
-    padding-left: 15px; }
+    padding-left: 30px; }
   .main-img-miniature li + li {
-    padding-left: 15px;
-    padding-bottom: 20px; }
+    padding-left: 30px;
+    padding-bottom: 40px; }
 
 /*CONTACT*/
 .contact {
@@ -201,6 +200,64 @@ body {
   .nav-footer {
     margin-bottom: 54px;
     margin-left: 200px;
+    text-align: center; }
+  .nav-menu-footer {
+    list-style: none;
+    padding-top: 54px;
+    margin-top: 0; }
+  .nav-menu-footer li {
+    float: left; }
+  .nav-menu-footer li + li {
+    margin-left: 48px; }
+  .nav-menu-footer a {
+    font-size: 16px;
+    color: #feffff;
+    text-decoration: none;
+    text-transform: uppercase; }
+  .footer-icon {
+    text-align: center;
+    margin-top: 34px;
+    margin-bottom: 36px; }
+  .footer-paragraph {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #feffff;
+    padding-bottom: 42px; } }
+
+@media (max-width: 767px) {
+  /*MAIN*/
+  .main-imgs {
+    margin-bottom: 20px;
+    padding-left: 105px; }
+  /*Nesting*/
+  .main-img-miniature {
+    list-style: none; }
+    .main-img-miniature li {
+      float: none;
+      margin-bottom: 29px; }
+    .main-img-miniature li + li {
+      margin-bottom: 10px; }
+  .contact-icon {
+    float: none;
+    padding-top: 24px;
+    margin-left: 260px; }
+  .contact-title {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #feffff; }
+  .contact-paragraph {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    width: 60%;
+    color: #feffff;
+    margin-right: 22%;
+    margin-bottom: 100px; }
+  .nav-footer {
+    margin-bottom: 54px;
+    margin-left: 50px;
     text-align: center; }
   .nav-menu-footer {
     list-style: none;

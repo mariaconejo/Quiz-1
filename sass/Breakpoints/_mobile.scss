@@ -1,0 +1,82 @@
+@media(max-width:767px){
+
+    /*MAIN*/
+    .main-imgs{
+        margin-bottom: 20px;
+        padding-left:105px;
+    }
+
+    /*Nesting*/
+    .main-img-miniature{
+        list-style: none;
+        
+        li{
+            float: none;
+            margin-bottom: 29px;
+        }
+
+        li + li{
+            margin-bottom: 10px;
+        }
+    }
+
+    .contact-icon{
+        float: none;
+        padding-top: 24px;
+        margin-left: 260px;
+    }
+
+    .contact-title{
+        font-size: 20px;
+        text-align: center;
+        text-transform:uppercase;
+        color: $white;
+    }
+
+    .contact-paragraph{
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        width: 60%;
+        color: $white;
+        margin-right:22%;
+        margin-bottom: 100px;
+    }
+
+    .nav-footer{
+        margin-bottom: 54px;
+        margin-left: 50px ;
+        text-align: center;
+    }
+    .nav-menu-footer{
+        list-style: none;
+        padding-top: 54px;
+        margin-top: 0;
+    }
+
+    .nav-menu-footer li{
+        float: left;
+    }
+    .nav-menu-footer li + li{
+        margin-left: 48px;
+    }
+
+
+    .nav-menu-footer a{
+        @include ancores;
+
+    }
+    .footer-icon{
+        text-align: center;
+        margin-top: 34px;
+        margin-bottom: 36px;
+    }
+
+    .footer-paragraph{
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        color: $white;
+        padding-bottom: 42px;
+    }
+}
