@@ -1,3 +1,7 @@
+
+/*CONTACT*/
+
+
 .contact{
     width: 100%;
     background-image: url("../img/bg.jpg");
@@ -6,14 +10,23 @@
 
 .contact-icon{
     float: left;
-    margin-top: 265px;
-    margin-left: 273px;
+    margin-top: 262px;
+    margin-left: 276px;
+}
+
+.contact-title{
+    font-size: 40px;
+    text-transform:uppercase;
+    color: $white;
 }
 
 .contact-paragraph{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
     float: right;
-    width: 548px;
+    width: 533px;
     color: $white;
-    margin-right: 144px;
-    margin-top: 139px;
+    margin-right: 7.29%;
+    margin-top: 10.41%;
+    margin-bottom: 59px;
 }

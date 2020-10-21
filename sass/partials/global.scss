@@ -1,6 +1,12 @@
+@import'../config/settings';
+
+body{
+    margin: 0;
+    font-family: $font;
+}
+
 .wrapper{
     max-width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
     width: 1440px;
     margin: 0 auto;
 }

@@ -7,19 +7,21 @@
 }
 
 .nav-footer{
-
-    margin-left: 418px ;
+    margin-bottom: 54px;
+    margin-left: 350px ;
+    text-align: center;
 }
 .nav-menu-footer{
     list-style: none;
     padding-top: 54px;
+    margin-top: 0;
 }
 
 .nav-menu-footer li{
     float: left;
 }
 .nav-menu-footer li + li{
-    margin-left: 40px;
+    margin-left: 48px;
 }
 
 
@@ -29,12 +31,14 @@
 }
 .footer-icon{
     text-align: center;
-    margin-top: 40px;
+    margin-top: 34px;
+    margin-bottom: 36px;
 }
 
 .footer-paragraph{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
-    margin-top: 48px;
-    margin-bottom: 40px;
     color: $white;
+    padding-bottom: 42px;
 }
