@@ -1,4 +1,4 @@
-@import'../config/_settings';
+@import'../config/mixin';
 
 /*MAIN*/
 .main{
@@ -77,12 +77,12 @@
 
 .main-img-description-mexico-2{
     @include main-destinos;
-    top: 520px;
+    top: 518px;
 }
 
 .main-img-description-cuba-2{
     @include main-destinos;
-    top: 520px;
+    top: 518px;
 }
 /*NESTING*/
 .plus-2 {

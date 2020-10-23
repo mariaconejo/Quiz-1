@@ -71,7 +71,7 @@
     
     .main-img-description-mexico-2{
         @include main-destinos;
-        top: 823px;
+        top: 820px;
     }
     
     .main-img-description-cuba-2{
@@ -94,9 +94,9 @@
     }
     /* CONTACT*/
     .contact-icon{
-        float: left;
-        margin-top: 20px;
-        margin-left: 400px;
+        float: none;
+        padding-top: 26px;
+        padding-left: 400px;
     }
     
     .contact-title{

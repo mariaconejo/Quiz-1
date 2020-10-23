@@ -1,14 +1,14 @@
-/*Config*/
 
-@import'./config/_settings';
-@import'./config/_mixin';
 
-/*Partials*/
+@import'./config/settings';
+@import'./config/mixin';
+
+
 @import'./partials/global.scss';
-@import'./partials/_header';
-@import'./partials/_main';
-@import'./partials/_contact';
-@import'./partials/_footer';
+@import'./partials/header';
+@import'./partials/main';
+@import'./partials/contact';
+@import'./partials/footer';
 
 
 @import'./Breakpoints/tablet';
