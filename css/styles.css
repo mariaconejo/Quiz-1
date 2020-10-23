@@ -96,22 +96,22 @@ body {
 /* TEXTO DE LAS IMAGENES DE ARRIBA*/
 .main-img-description-caribe {
   width: 396px;
-  height: 60px;
+  height: 56px;
+  background-color: rgba(0, 0, 0, 0.55);
   font-family: "Oleo Script Swash Caps", cursive;
   font-size: 36px;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.55);
   position: absolute;
   color: #feffff;
-  top: 160px; }
+  top: 164px; }
 
 .main-img-description-mexico {
   width: 396px;
   height: 56px;
+  background-color: rgba(0, 0, 0, 0.55);
   font-family: "Oleo Script Swash Caps", cursive;
   font-size: 36px;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.55);
   position: absolute;
   color: #feffff;
   top: 210px; }
@@ -119,10 +119,10 @@ body {
 .main-img-description-cuba {
   width: 396px;
   height: 56px;
+  background-color: rgba(0, 0, 0, 0.55);
   font-family: "Oleo Script Swash Caps", cursive;
   font-size: 36px;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.55);
   position: absolute;
   color: #feffff;
   top: 210px; }
@@ -131,20 +131,20 @@ body {
 .plus {
   background-color: rgba(0, 0, 0, 0.55);
   font-family: "Montserrat", sans-serif;
+  font-size: 19px;
   position: absolute;
   width: 395px;
   height: 47px;
   position: absolute;
-  top: 220px;
-  font-size: 19px;
-  color: #feffff; }
+  color: #feffff;
+  top: 220px; }
   .plus p {
     margin: 0 auto;
     text-align: center; }
 
 /* TEXTO DE LAS IMAGENES DE ABAJO*/
 .main-img-description-caribe-2 {
-  width: 395px;
+  width: 396px;
   height: 56px;
   background-color: rgba(0, 0, 0, 0.55);
   font-family: "Oleo Script Swash Caps", cursive;
@@ -156,7 +156,7 @@ body {
 
 .main-img-description-mexico-2 {
   width: 396px;
-  height: 53px;
+  height: 56px;
   background-color: rgba(0, 0, 0, 0.55);
   font-family: "Oleo Script Swash Caps", cursive;
   font-size: 36px;
@@ -167,7 +167,7 @@ body {
 
 .main-img-description-cuba-2 {
   width: 396px;
-  height: 53px;
+  height: 56px;
   background-color: rgba(0, 0, 0, 0.55);
   font-family: "Oleo Script Swash Caps", cursive;
   font-size: 36px;
@@ -180,13 +180,13 @@ body {
 .plus-2 {
   background-color: rgba(0, 0, 0, 0.55);
   font-family: "Montserrat", sans-serif;
+  font-size: 19px;
   position: absolute;
   width: 395px;
   height: 47px;
   position: absolute;
-  top: 525px;
-  font-size: 19px;
-  color: #feffff; }
+  color: #feffff;
+  top: 525px; }
   .plus-2 p {
     margin: 0 auto;
     text-align: center; }
@@ -308,21 +308,21 @@ body {
     color: #feffff;
     top: 516px; }
   .plus {
+    top: 220px;
     background-color: rgba(0, 0, 0, 0.55);
     font-family: "Montserrat", sans-serif;
+    font-size: 19px;
     position: absolute;
     width: 395px;
     height: 47px;
     position: absolute;
-    top: 220px;
-    font-size: 19px;
     color: #feffff; }
   .plus p {
     margin: 0 auto;
     text-align: center; }
   /* TEXTO DE LAS IMAGENES DE ABAJO*/
   .main-img-description-caribe-2 {
-    width: 395px;
+    width: 396px;
     height: 56px;
     background-color: rgba(0, 0, 0, 0.55);
     font-family: "Oleo Script Swash Caps", cursive;
@@ -330,7 +330,7 @@ body {
     text-align: center;
     position: absolute;
     color: #feffff;
-    top: 464px; }
+    top: 466px; }
   .main-img-description-mexico-2 {
     width: 396px;
     height: 56px;
@@ -354,16 +354,17 @@ body {
   .plus-2 {
     background-color: rgba(0, 0, 0, 0.55);
     font-family: "Montserrat", sans-serif;
+    font-size: 19px;
     position: absolute;
     width: 395px;
     height: 47px;
     position: absolute;
-    top: 520px;
-    font-size: 19px;
-    color: #feffff; }
+    color: #feffff;
+    top: 522px; }
   .plus-2 p {
     margin: 0 auto;
     text-align: center; }
+  /* CONTACT*/
   .contact-icon {
     float: left;
     margin-top: 20px;
@@ -381,6 +382,7 @@ body {
     color: #feffff;
     margin-right: 20%;
     margin-bottom: 100px; }
+  /*FOOTER*/
   .nav-footer {
     margin-bottom: 54px;
     margin-left: 200px;
@@ -407,95 +409,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: #feffff;
-    padding-bottom: 42px; }
-  .main-img-description-caribe {
-    width: 396px;
-    height: 56px;
-    background-color: rgba(0, 0, 0, 0.55);
-    font-family: "Oleo Script Swash Caps", cursive;
-    font-size: 36px;
-    text-align: center;
-    position: absolute;
-    color: #feffff;
-    top: 164px; }
-  .main-img-description-mexico {
-    width: 396px;
-    height: 56px;
-    background-color: rgba(0, 0, 0, 0.55);
-    font-family: "Oleo Script Swash Caps", cursive;
-    font-size: 36px;
-    text-align: center;
-    position: absolute;
-    color: #feffff;
-    left: 490px;
-    top: 210px; }
-  .main-img-description-cuba {
-    width: 396px;
-    height: 56px;
-    background-color: rgba(0, 0, 0, 0.55);
-    font-family: "Oleo Script Swash Caps", cursive;
-    font-size: 36px;
-    text-align: center;
-    position: absolute;
-    color: #feffff;
-    top: 516px; }
-  .plus {
-    background-color: rgba(0, 0, 0, 0.55);
-    font-family: "Montserrat", sans-serif;
-    position: absolute;
-    width: 395px;
-    height: 47px;
-    position: absolute;
-    top: 220px;
-    font-size: 19px;
-    color: #feffff; }
-  .plus p {
-    margin: 0 auto;
-    text-align: center; }
-  /* TEXTO DE LAS IMAGENES DE ABAJO*/
-  .main-img-description-caribe-2 {
-    width: 395px;
-    height: 56px;
-    background-color: rgba(0, 0, 0, 0.55);
-    font-family: "Oleo Script Swash Caps", cursive;
-    font-size: 36px;
-    text-align: center;
-    position: absolute;
-    color: #feffff;
-    top: 464px; }
-  .main-img-description-mexico-2 {
-    width: 396px;
-    height: 56px;
-    background-color: rgba(0, 0, 0, 0.55);
-    font-family: "Oleo Script Swash Caps", cursive;
-    font-size: 36px;
-    text-align: center;
-    position: absolute;
-    color: #feffff;
-    top: 823px; }
-  .main-img-description-cuba-2 {
-    width: 396px;
-    height: 56px;
-    background-color: rgba(0, 0, 0, 0.55);
-    font-family: "Oleo Script Swash Caps", cursive;
-    font-size: 36px;
-    text-align: center;
-    position: absolute;
-    color: #feffff;
-    top: 823px; }
-  .plus-2 {
-    background-color: rgba(0, 0, 0, 0.55);
-    font-family: "Montserrat", sans-serif;
-    position: absolute;
-    width: 395px;
-    height: 47px;
-    position: absolute;
-    top: 520px;
-    font-size: 19px;
-    color: #feffff; }
-  .plus-2 p {
-    margin: 0 auto;
-    text-align: center; } }
+    padding-bottom: 42px; } }
 
 @media (max-width: 767px) {
   /*MAIN*/
@@ -511,7 +425,7 @@ body {
     .main-img-miniature li + li {
       margin-bottom: 10px; }
   .main-img-description-caribe {
-    width: 395px;
+    width: 396px;
     height: 56px;
     background-color: rgba(0, 0, 0, 0.55);
     font-family: "Oleo Script Swash Caps", cursive;
@@ -544,19 +458,19 @@ body {
   .plus {
     background-color: rgba(0, 0, 0, 0.55);
     font-family: "Montserrat", sans-serif;
+    font-size: 19px;
     position: absolute;
     width: 395px;
     height: 47px;
     position: absolute;
-    top: 220px;
-    font-size: 19px;
-    color: #feffff; }
+    color: #feffff;
+    top: 220px; }
   .plus p {
     margin: 0 auto;
     text-align: center; }
   /* TEXTO DE LAS IMAGENES DE ABAJO*/
   .main-img-description-caribe-2 {
-    width: 395px;
+    width: 396px;
     height: 56px;
     background-color: rgba(0, 0, 0, 0.55);
     font-family: "Oleo Script Swash Caps", cursive;
@@ -588,13 +502,13 @@ body {
   .plus-2 {
     background-color: rgba(0, 0, 0, 0.55);
     font-family: "Montserrat", sans-serif;
+    font-size: 19px;
     position: absolute;
     width: 395px;
     height: 47px;
     position: absolute;
-    top: 1110px;
-    font-size: 19px;
-    color: #feffff; }
+    color: #feffff;
+    top: 1110px; }
   .plus-2 p {
     margin: 0 auto;
     text-align: center; }
