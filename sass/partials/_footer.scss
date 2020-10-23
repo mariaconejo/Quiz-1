@@ -11,22 +11,25 @@
     margin-left: 350px ;
     text-align: center;
 }
+/* NESTING */
 .nav-menu-footer{
     list-style: none;
     padding-top: 54px;
     margin-top: 0;
-}
-
-.nav-menu-footer li{
-    float: left;
-}
-.nav-menu-footer li + li{
-    margin-left: 48px;
-}
 
 
-.nav-menu-footer a{
-    @include ancores;
+    li{
+        float: left;
+    }
+    li + li{
+        margin-left: 48px;
+    }
+
+
+    a{
+        @include ancores;
+
+    }
 
 }
 .footer-icon{
